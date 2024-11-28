@@ -1,0 +1,76 @@
+export const products = [
+    {
+      id: '1',
+      name: 'Смартфон',
+      price: 30000,
+      shortDescription: 'Крутой смартфон для всех нужд.',
+      description: 'Это смартфон с 6.5-дюймовым экраном и мощным процессором.',
+      image: 'https://cdn.alser.kz/products/smartfony-samsung//189lkc0Qn/smartfon-samsung-galaxy-a15-256gb-black-sm-a155fzkiskz-520x325.png',
+    },
+    {
+      id: '2',
+      name: 'Ноутбук',
+      price: 70000,
+      shortDescription: 'Ноутбук для работы и игр.',
+      description: 'Легкий и производительный ноутбук с мощной видеокартой.',
+      image: 'https://cdn.alser.kz/products/igrovye//OPa7QC1yg/noutbuk-hp-omen-16-wf1012ci-161-fhd-ips-165hz-intelr-core-i7-14700hx16gbssd-512gbnvidiar-geforce-rtx-4070-8gbblackdosa19gwea-520x325.png',
+    },
+    {
+        id: '3',
+        name: 'Наушники',
+        price: 5000,
+        description: 'Комфортные наушники для прослушивания музыки и общения.',
+        image: 'https://cdn.alser.kz/products/YWpPyCJ9Jd/nausniki-marshall-major-iv-cernyj-520x325.jpg',
+      },
+      {
+        id: '4',
+        name: 'Планшет',
+        price: 25000,
+        description: 'Планшет с ярким экраном и длительным временем работы.',
+        image: 'https://cdn.alser.kz/products/planshety-lenovo//ZJgOMTYgP/planset-lenovo-tb351fu-tab-8g-256glg-ru-zadx0082ru.png',
+      },
+      {
+        id: '5',
+        name: 'Часы умные',
+        price: 10000,
+        description: 'Часы с функциями мониторинга здоровья и фитнеса.',
+        image: 'https://cdn.alser.kz/products/baby-watch//ZQxn9cBAb/detskie-umnye-casy-leef-pulsar-rozovyj.png',
+      },
+      {
+        id: '6',
+        name: 'Игровая консоль',
+        price: 20000,
+        description: 'Платформа для игр с множеством эксклюзивных тайтлов.',
+        image: 'https://cdn.alser.kz/products/pristavki-dlja-cifrovogo-tv//XKWVkC4ld/retro-genesis-remix-wireless-8-16bit-600-igr-av-kabel-2-besprovodnyh-dzojstika.jpg',
+      },
+      {
+        id: '7',
+        name: 'Клавиатура',
+        price: 4000,
+        description: 'Клавиатура с RGB подсветкой и быстрыми откликами.',
+        image: 'https://cdn.alser.kz/products/klaviatury//njLyguvGr/klaviatura-hyperx-alloy-rise-75-ru-7g7a4aaacb.jpg',
+      },
+      {
+        id: '8',
+        name: 'Мышь',
+        price: 1500,
+        description: 'Мышь с регулировкой DPI и дополнительными кнопками.',
+        image: 'https://cdn.alser.kz/products/myshi//07ApqHJJZG/opticeskaa-mys-pp000253-pv551ouxk-viper-rgb-optical-mouse.png',
+      },
+      {
+        id: '9',
+        name: 'Монитор',
+        price: 15000,
+        description: 'Монитор с высоким разрешением и частотой обновления.',
+        image: 'https://cdn.alser.kz/products/monitory-igrovye//4DAqAtxOlK/monitor-samsung-gaming-odyssey-g3-ls24ag302nixci.jpg',
+      },
+      {
+        id: '10',
+        name: 'Сетевой фильтр',
+        price: 800,
+        description: 'Защищает ваши устройства от электрических повреждений.',
+        image: 'https://cdn.alser.kz/products/setevye-fil-try/kOAxuQBd/lYyNFBRV7/setevoi-filtr-tripp-lite-gr1379-6rozetok.jpg',
+      },
+      
+  ];
+  
