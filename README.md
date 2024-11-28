@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Веб-приложение для отображения списка товаров
 
-## Getting Started
+Этот проект представляет собой веб-приложение, разработанное с использованием **Next.js** и **React** для отображения списка товаров, детальной информации о каждом товаре и реализации поиска. Пользователи могут фильтровать товары по названию и переходить на страницы с более подробной информацией о каждом товаре.
 
-First, run the development server:
+## Описание
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+В этом проекте реализованы следующие функциональности:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Главная страница**:
+   - Отображается список товаров с названием, ценой и кратким описанием.
+   - Данные о товарах загружаются с сервера через API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Страница товара**:
+   - При клике на товар на главной странице пользователь переходит на страницу с детальной информацией о товаре.
+   - На странице товара отображается полное описание, изображение и цена.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Поиск**:
+   - На главной странице имеется поле для поиска.
+   - Поиск фильтрует товары по имени в реальном времени, без перезагрузки страницы.
 
-## Learn More
+4. **API**:
+   - `/api/products` — возвращает список товаров.
+   - `/api/products/[id]` — возвращает информацию о товаре по его ID.
 
-To learn more about Next.js, take a look at the following resources:
+5. **Оптимизация производительности**:
+   - Используется оптимизация изображений с помощью компонента `Image` от Next.js.
+   - Применяются динамические импорты для уменьшения размера начальной загрузки.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Технологии
 
-## Deploy on Vercel
+- **Next.js** (для серверного рендеринга и API роутов)
+- **React** (для рендеринга компонентов)
+- **TypeScript** (для статической типизации)
+- **CSS Modules** (для стилизации компонентов)
+- **Image Optimization** (для оптимизации изображений)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Установка
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Чтобы запустить этот проект локально, выполните следующие шаги:
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/your-username/product-listing-app.git
+  
+    cd product-listing-app
+Установите зависимости:
+
+   
+     npm install
+Запустите проект:
+
+    npm run dev
